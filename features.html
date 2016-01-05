@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Evolution of HTML 5</title>
+        <link href="img/favicon.ico" rel="icon" type="image/x-icon" />
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="css/icons/fontello.css">
+        <script type="text/javascript" src="js/jquery-1.js"></script>
+    </head>
+    <body class="boxedlayout">
+        <section class="maincontent">
+        <nav>
+        <ul class="menu">
+            <li><a href="index.html"><span class="icon-home"></span> Home</a></li>
+            <li><a href="timeline.html"><span class="icon-hourglass"></span>Timeline</a></li>
+            <li><a href="features.html"><span class="icon-info"></span>Features</a></li>
+            <li><a href="about.html"><span class="icon-layout"></span>About HTML5</a></li>
+            <li><a href="compar.html"><span class="icon-check-1"></span>Comparision of versions</a></li>
+        </ul>
+        <div class="clear"></div>
+    </nav>
+    <section class="container borderShadow">
+                <div class="divide40"></div>
+                <article class="borderedbox-wrapper">
+                    <section class="one_third txt-center">
+                        <i class="icon-video bigIcon rm10"></i>
+                        <div class="divide20"></div>
+                        <h2 class="title black nobottommargin">Video</h2>
+                        <div class="divide20"></div>
+                        <p>Easy to embed video without any third party plugin or code.&lt;video&gt;&lt;/video&gt; is used to embed video in a website</p>
+                    </section>
+
+                    <section class="one_third txt-center">
+                        <i class="icon-location bigIcon rm10"></i>
+                        <div class="divide20"></div>
+                        <h2 class="title black nobottommargin">Geolocation</h2>
+                        <div class="divide20"></div>
+                        <p>Geolocation best known for use on mobile devices. Various geolocation API can be used to track the location.</p>
+                    </section>
+
+                    <section class="one_third lastcolumn txt-center">
+                        <i class="icon-layout bigIcon rm10"></i>
+                        <div class="divide20"></div>
+                        <h2 class="title black nobottommargin">Canvas</h2>
+                        <div class="divide20"></div>
+                        <p>Canvas feature allows a web developer to render graphics on the fly. As with video, there is no need for a plug in.</p>
+                    </section>
+                    <div class="clear"></div>
+                </article>
+                <div class="divide60"></div>
+                <hr class="dark">
+<section class="three_fourth">
+    <h1 align="left">Features of html5</h1> 
+<ol>
+<li>Web Workers: Certain web applications use heavy scripts to perform functions. Web Workers use separate background threads for processing and it does not effect the performance of a web page.</li>
+<li>Video: You can embed video without third-party proprietary plug-ins or codec. Video becomes as easy as embedding an image.</li>
+<li>Canvas: This feature allows a web developer to render graphics on the fly. As with video, there is no need for a plug in.</li>
+<li>Application caches:  Web pages will start storing more and more information locally on the visitor's computer. It works like cookies, but where cookies are small, the new feature allows for much larger files. Google Gears is an excellent example of this in action.</li>
+<li>Geolocation: Best known for use on mobile devices, geolocation is coming with HTML5.</li>
+<li>Make your content editable: The new browsers have a nifty new attribute that can be applied to elements, called content editable. As the name implies, this allows the user to edit any of the text contained within the element, including its children.</li>
+<li>Local Storage: we can make advanced browsers "remember" what we type, even after the browser is closed or is refreshed.</li>
+ </ol>
+
+
+
+</section>
+<section class="one_fourth lastcolumn">
+<h4>Features in point</h4>
+   <ul>
+   <li>Video</li>
+   <li>Canvas</li>
+   <li>Application caches</li>
+   <li>Geolocation</li>
+   <li>Web Workers</li>
+   <li>Make content editable</li>
+   <li>Local Storage</li>
+   </ul>
+</section>
+</section>
+                
+
+            <div class="clear"></div>
+            <div class="divide60"></div>
+            <footer>
+                <section class="footer">
+                    <div class="container">
+                        <div class="one_third">
+                            <p class="small">&copy; 2015 L1C4, All Rights Reserved.</p>
+                        </div>
+
+                        <div class="one_third">
+                            <p class="small">Designed by <a href="http://www.kirans.com.np"><strong>Kiran Shahi</strong></a></p>
+                        </div>
+
+                        <div class="one_third lastcolumn">
+                            <div class="rightfloat">
+                                <div class='socialIcon'>
+                                    <a href="#" title="Like Us on Facebook" class='social-facebook'></a>
+                                    <a href="#" title="Follow Us on twitter" class='social-twitter'></a>
+                                    <a href="#" title="Follow Us on Google Plus" class='social-gplus'></a>
+                                    <a href="#" title="Find Us on Pibterest" class='social-pinterest'></a>
+                                    <a href="#" title="Find Us on Dribbble" class='social-dribbble'></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </section>
+            </footer>
+        </section>
+        <!--Smooth Back to Top Button Start-->
+            <script>
+                jQuery(document).ready(function() {
+                var offset = 220;
+                var duration = 500;
+                jQuery(window).scroll(function() {
+                if (jQuery(this).scrollTop() > offset) {
+                jQuery('.back-to-top').fadeIn(duration);
+                } else {
+                jQuery('.back-to-top').fadeOut(duration);
+                }
+                });
+                jQuery('.back-to-top').click(function(event) {
+                event.preventDefault();
+                jQuery('html, body').animate({scrollTop: 0}, duration);
+                return false;
+                })
+                });
+                </script>
+                <style>
+                .back-to-top {
+                position: fixed;
+                bottom: 2em;
+                right: 0px;
+                text-decoration: none;
+                background-color: #000000;
+                font-size: 12px;
+                padding: 1em;
+                display: none;
+                }
+                .back-to-top i{
+                color: #FFFFFF;
+                }
+                .back-to-top:hover {
+                text-decoration: none;
+                }
+                </style>
+<a href="#" class="back-to-top"><i class='icon-up-thin'></i></a>
+    </body>
+</html>
